@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="script.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Recipes</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <!-- Link to the about us page -->
+        <li class="dropdown">
+          <a href="starters.html" class="dropbtn">Starters</a>
+          <!-- Link to the starters section (assuming it's on the same page) -->
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="wildGarlicRolls.html">Wild Garlic Rolls</a>
+            <a href="charredBrussels.html">Charred Brussels</a>
+            <a href="potatoBombas.html">Potato Bombas</a>
+            <a href="fetaFiloTurnovers.html">Feta Filo Turnovers</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="mainCourses.html" class="dropbtn">Main Courses</a>
+          <!-- Link to the main courses section -->
+          <div class="dropdown-content">
+            <a href="gnocchiBake.html">Gnocchi Bake</a>
+            <a href="chickenInABag.html">Chicken In A Bag</a>
+            <a href="epicEggInAHole.html">Epic Egg In A Hole</a>
+            <a href="smokedSalmonPasta.html">Smoked Salmon Pasta</a>
+            <a href="sausageBrunchBap.html">Sausage Brunch Bap</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#desserts" class="dropbtn">Desserts</a>
+          <!-- Link to the desserts section -->
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="air-fryerCookies.html">Air-Fryer Cookies</a>
+            <a href="fetaCookies.html">Feta Cookies</a>
+            <a href="chocolateCookies.html">Chocolate chip Cookies</a>
+            <a href="appleCookies.html">Apple Pie Cookies</a>
+          </div>
+        </li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <!-- Link to the contact us page -->
+        <li><a href="saveforlater.html">Saved For later</a></li>
+      </ul>
+    </nav>
+    <div class="recipe-container">
+      <div class="recipe">
+        <!-- Image for the Pancake recipe -->
+        <img src="pictures/pancake.jpg" alt="Pancake Recipe" />
+        <a href="pancake.html">Pancake Recipe</a>
+        <button class="save-btn" data-recipe="pancake.html">
+          Save for Later
+        </button>
+        <!-- Subheading for the Pancake recipe -->
+        <table>
+          <tr>
+            <th>Ingredients</th>
+            <th>Measurements</th>
+          </tr>
+          <tr>
+            <th>All Purpose Flour</th>
+            <th>1 & Half Cups</th>
+          </tr>
+          <tr>
+            <th>Baking Powder</th>
+            <th>3 & Half Teaspoons</th>
+          </tr>
+          <tr>
+            <th>White Sugar</th>
+            <th>1 Tablespoon</th>
+          </tr>
+          <tr>
+            <th>Salt</th>
+            <th>1/4 Teaspoon salt, or more to taste</th>
+          </tr>
+          <tr>
+            <th>Milk</th>
+            <th>1 1/4 Cups</th>
+          </tr>
+          <tr>
+            <th>Butter</th>
+            <th>3 Tablespoons, Melted</th>
+          </tr>
+          <tr>
+            <th>Egg</th>
+            <th>1</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Section to display saved recipes -->
+    <h2>Saved Recipes</h2>
+    <ul id="saved-recipes"></ul>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

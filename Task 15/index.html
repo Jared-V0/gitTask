@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="script.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Recipes</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li class="dropdown">
+          <a href="starters.html" class="dropbtn">Starters</a>
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="wildGarlicRolls.html">Wild Garlic Rolls</a>
+            <a href="charredBrussels.html">Charred Brussels</a>
+            <a href="potatoBombas.html">Potato Bombas</a>
+            <a href="fetaFiloTurnovers.html">Feta Filo Turnovers</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="mainCourses.html" class="dropbtn">Main Courses</a>
+          <div class="dropdown-content">
+            <a href="gnocchiBake.html">Gnocchi Bake</a>
+            <a href="chickenInABag.html">Chicken In A Bag</a>
+            <a href="epicEggInAHole.html">Epic Egg In A Hole</a>
+            <a href="smokedSalmonPasta.html">Smoked Salmon Pasta</a>
+            <a href="sausageBrunchBap.html">Sausage Brunch Bap</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#desserts" class="dropbtn">Desserts</a>
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="air-fryerCookies.html">Air-Fryer Cookies</a>
+            <a href="fetaCookies.html">Feta Cookies</a>
+            <a href="chocolateCookies.html">Chocolate chip Cookies</a>
+            <a href="appleCookies.html">Apple Pie Cookies</a>
+          </div>
+        </li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="saveforlater.html">Saved For later</a></li>
+      </ul>
+    </nav>
+    <!-- Main heading for the page -->
+    <h2>Common Recipes</h2>
+
+    <!-- Container for the recipes -->
+    <div class="recipe-container">
+      <div class="recipe">
+        <img
+          src="pictures/pancake.jpg"
+          alt="Pancake Recipe"
+          class="recipe-img"
+        />
+        <a href="#pancake-recipe">Pancake Recipe</a>
+        <button class="save-btn" data-recipe="#pancake-recipe">
+          Save for Later
+        </button>
+      </div>
+      <div class="recipe">
+        <img
+          src="pictures/gnocchi bake .jpeg"
+          alt="Beef Taco Recipe"
+          class="recipe-img"
+        />
+        <a href="#beef-taco-recipe">Beef Taco Recipe</a>
+        <button class="save-btn" data-recipe="#beef-taco-recipe">
+          Save for Later
+        </button>
+      </div>
+    </div>
+
+    <!-- Testimonial Section -->
+    <button id="toggle-testimonial">Show Testimonial</button>
+    <div class="testimonial" style="display: none">
+      <p>
+        "This website has transformed my cooking! The recipes are easy to follow
+        and absolutely delicious. I can't wait to try more!"
+      </p>
+      <p>- Jamie L.</p>
+    </div>
+
+    <!-- Thank you message -->
+    <h4>Thanks for Looking at our Page!</h4>
+    <p>Would you like to see one of the following recipes to be added?</p>
+    <form>
+      <input type="radio" id="burger" name="recipes" value="Beef burger" />
+      <label for="burger">Burger</label>
+      <input
+        type="radio"
+        id="scrambled eggs"
+        name="recipes"
+        value="Scrambled eggs"
+      />
+      <label for="scrambled eggs">Scrambled eggs</label>
+      <input
+        type="radio"
+        id="Lemon meringue"
+        name="recipes"
+        value="Lemon meringue"
+      />
+      <label for="Lemon meringue">Lemon meringue</label>
+    </form>
+
+    <!-- Smiley image -->
+    <img id="smiley" src="pictures/smiley.jpg" alt="smiley face" />
+
+    <!-- Subscription form -->
+    <h2>Subscribe to our Newsletter!</h2>
+    <form>
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" value="" /><br />
+      <label for="lname">Last Name:</label><br />
+      <input type="text" id="lname" name="lname" value="" /><br />
+      <input type="submit" value="submit" />
+    </form>
+    <!-- Section to display saved recipes -->
+    <h2>Saved Recipes</h2>
+    <ul id="saved-recipes"></ul>
+
+    <!-- Comment Section -->
+    <h2>Leave a Comment</h2>
+    <form id="comment-form">
+      <label for="comment-name">Name:</label><br />
+      <input type="text" id="comment-name" name="name" /><br />
+      <label for="comment-message">Comment:</label><br />
+      <textarea
+        id="comment-message"
+        name="message"
+        rows="4"
+        cols="50"
+      ></textarea
+      ><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

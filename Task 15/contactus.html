@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Defines the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <link rel="stylesheet" href="script.css" />
+    <!-- Links to the external CSS file for styling -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Contact Us</title>
+    <!-- Title of the webpage -->
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <!-- Link to the about us page -->
+        <li class="dropdown">
+          <a href="starters.html" class="dropbtn">Starters</a>
+          <!-- Link to the starters section (assuming it's on the same page) -->
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="wildGarlicRolls.html">Wild Garlic Rolls</a>
+            <a href="charredBrussels.html">Charred Brussels</a>
+            <a href="potatoBombas.html">Potato Bombas</a>
+            <a href="fetaFiloTurnovers.html">Feta Filo Turnovers</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="mainCourses.html" class="dropbtn">Main Courses</a>
+          <!-- Link to the main courses section -->
+          <div class="dropdown-content">
+            <a href="gnocchiBake.html">Gnocchi Bake</a>
+            <a href="chickenInABag.html">Chicken In A Bag</a>
+            <a href="epicEggInAHole.html">Epic Egg In A Hole</a>
+            <a href="smokedSalmonPasta.html">Smoked Salmon Pasta</a>
+            <a href="sausageBrunchBap.html">Sausage Brunch Bap</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#desserts" class="dropbtn">Desserts</a>
+          <!-- Link to the desserts section -->
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="air-fryerCookies.html">Air-Fryer Cookies</a>
+            <a href="fetaCookies.html">Feta Cookies</a>
+            <a href="chocolateCookies.html">Chocolate chip Cookies</a>
+            <a href="appleCookies.html">Apple Pie Cookies</a>
+          </div>
+        </li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <!-- Link to the contact us page -->
+        <li><a href="saveforlater.html">Saved For later</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main heading for the page -->
+    <h2>Contact Us</h2>
+
+    <!-- Contact Us Form -->
+    <div class="contactus-container">
+      <div class="contactus-content">
+        <h3>Get in Touch</h3>
+        <p>
+          If you need to contact us about anything, please do it here. We are
+          always happy to help with any questions or concerns you may have.
+        </p>
+        <form
+          action="mailto:jvalensky101@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea
+          ><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

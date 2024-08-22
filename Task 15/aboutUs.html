@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Defines the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <link rel="stylesheet" href="script.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Links to the external CSS file for styling -->
+    <title>About Us</title>
+    <!-- Title of the webpage -->
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <!-- Link to the about us page -->
+        <li class="dropdown">
+          <a href="starters.html" class="dropbtn">Starters</a>
+          <!-- Link to the starters section (assuming it's on the same page) -->
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="wildGarlicRolls.html">Wild Garlic Rolls</a>
+            <a href="charredBrussels.html">Charred Brussels</a>
+            <a href="potatoBombas.html">Potato Bombas</a>
+            <a href="fetaFiloTurnovers.html">Feta Filo Turnovers</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="mainCourses.html" class="dropbtn">Main Courses</a>
+          <!-- Link to the main courses section -->
+          <div class="dropdown-content">
+            <a href="gnocchiBake.html">Gnocchi Bake</a>
+            <a href="chickenInABag.html">Chicken In A Bag</a>
+            <a href="epicEggInAHole.html">Epic Egg In A Hole</a>
+            <a href="smokedSalmonPasta.html">Smoked Salmon Pasta</a>
+            <a href="sausageBrunchBap.html">Sausage Brunch Bap</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#desserts" class="dropbtn">Desserts</a>
+          <!-- Link to the desserts section -->
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="air-fryerCookies.html">Air-Fryer Cookies</a>
+            <a href="fetaCookies.html">Feta Cookies</a>
+            <a href="chocolateCookies.html">Chocolate chip Cookies</a>
+            <a href="appleCookies.html">Apple Pie Cookies</a>
+          </div>
+        </li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <!-- Link to the contact us page -->
+        <li><a href="saveforlater.html">Saved For later</a></li>
+      </ul>
+    </nav>
+    <!-- Main heading for the page -->
+    <h2>About Us</h2>
+
+    <!-- Container for the about us content -->
+    <div class="aboutus-container">
+      <div class="aboutus-content">
+        <h3>Our Story</h3>
+        <!-- Subheading for Our Story section -->
+        <p>
+          Welcome to our recipe website! We are passionate about food and love
+          sharing our favorite recipes with you. Our journey began in a small
+          kitchen where we experimented with different ingredients and flavors.
+          Today, we bring you a collection of recipes that are easy to follow
+          and delicious to taste.
+        </p>
+        <h3>Our Mission</h3>
+        <!-- Subheading for Our Mission section -->
+        <p>
+          Our mission is to inspire home cooks to create delicious meals with
+          ease. We believe that cooking should be fun and accessible to
+          everyone. That's why we provide detailed recipes with step-by-step
+          instructions, so you can enjoy the process and the result.
+        </p>
+        <h3>Meet the Team</h3>
+        <!-- Subheading for Meet the Team section -->
+        <p>
+          Our team is made up of food enthusiasts, chefs, and nutritionists who
+          work together to bring you the best recipes. We test each recipe
+          multiple times to ensure it meets our high standards of flavor and
+          simplicity.
+        </p>
+      </div>
+    </div>
+
+    <!-- Container for the images of chefs -->
+    <div class="chef-container">
+      <img id="chef" src="pictures/chef.jpg" alt="Chef 1" />
+      <!-- Image of Chef 1 -->
+      <img id="chef2" src="pictures/chef 2.jpg" alt="Chef 2" />
+      <!-- Image of Chef 2 -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

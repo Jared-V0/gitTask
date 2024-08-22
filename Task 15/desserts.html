@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="script.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Recipes</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <!-- Link to the about us page -->
+        <li class="dropdown">
+          <a href="starters.html" class="dropbtn">Starters</a>
+          <!-- Link to the starters section (assuming it's on the same page) -->
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="wildGarlicRolls.html">Wild Garlic Rolls</a>
+            <a href="charredBrussels.html">Charred Brussels</a>
+            <a href="potatoBombas.html">Potato Bombas</a>
+            <a href="fetaFiloTurnovers.html">Feta Filo Turnovers</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="mainCourses.html" class="dropbtn">Main Courses</a>
+          <!-- Link to the main courses section -->
+          <div class="dropdown-content">
+            <a href="gnocchiBake.html">Gnocchi Bake</a>
+            <a href="chickenInABag.html">Chicken In A Bag</a>
+            <a href="epicEggInAHole.html">Epic Egg In A Hole</a>
+            <a href="smokedSalmonPasta.html">Smoked Salmon Pasta</a>
+            <a href="sausageBrunchBap.html">Sausage Brunch Bap</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#desserts" class="dropbtn">Desserts</a>
+          <!-- Link to the desserts section -->
+          <div class="dropdown-content">
+            <a href="pancake.html">Pancake</a>
+            <a href="air-fryerCookies.html">Air-Fryer Cookies</a>
+            <a href="fetaCookies.html">Feta Cookies</a>
+            <a href="chocolateCookies.html">Chocolate chip Cookies</a>
+            <a href="appleCookies.html">Apple Pie Cookies</a>
+          </div>
+        </li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <!-- Link to the contact us page -->
+        <li><a href="saveforlater.html">Saved For later</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main heading for the page -->
+    <h2>Desserts</h2>
+
+    <!-- Container for the recipes -->
+    <div class="recipe-container">
+      <div class="recipe">
+        <!-- Image for the Pancake recipe -->
+        <img src="pictures/pancake.jpg" alt="Pancake Recipe" />
+        <a href="#pancake-recipe">Pancake Recipe</a>
+        <button class="save-btn" data-recipe="#pancake-recipe">
+          Save for Later
+        </button>
+        <!-- Subheading for the Pancake recipe -->
+        <table>
+          <tr>
+            <th>Ingredients</th>
+            <th>Measurements</th>
+          </tr>
+          <tr>
+            <th>All Purpose Flour</th>
+            <th>1 & Half Cups</th>
+          </tr>
+          <tr>
+            <th>Baking Powder</th>
+            <th>3 & Half Teaspoons</th>
+          </tr>
+          <tr>
+            <th>White Sugar</th>
+            <th>1 Tablespoon</th>
+          </tr>
+          <tr>
+            <th>Salt</th>
+            <th>1/4 Teaspoon salt, or more to taste</th>
+          </tr>
+          <tr>
+            <th>Milk</th>
+            <th>1 1/4 Cups</th>
+          </tr>
+          <tr>
+            <th>Butter</th>
+            <th>3 Tablespoons, Melted</th>
+          </tr>
+          <tr>
+            <th>Egg</th>
+            <th>1</th>
+          </tr>
+        </table>
+      </div>
+      <div class="recipe">
+        <!-- Image for the Beef Taco recipe -->
+        <img src="pictures/oat cookies.jpeg" alt="Oat Cookies" />
+        <a href="air-fryerCookies.html">Oat Cookies</a>
+        <button class="save-btn" data-recipe="air-fryerCookies.html">
+          Save for Later
+        </button>
+        <!-- Subheading for the Beef Taco recipe -->
+        <table>
+          <tr>
+            <th>Ingredients</th>
+            <th>Measurements</th>
+          </tr>
+          <tr>
+            <th>unsalted butter</th>
+            <th>85 g</th>
+          </tr>
+          <tr>
+            <th>golden syrup</th>
+            <th>20 g</th>
+          </tr>
+          <tr>
+            <th>a lemon</th>
+            <th>½</th>
+          </tr>
+          <tr>
+            <th>self-raising flour</th>
+            <th>140 g</th>
+          </tr>
+          <tr>
+            <th>porridge oats</th>
+            <th>100 g</th>
+          </tr>
+          <tr>
+            <th>golden caster sugar</th>
+            <th>100 g</th>
+          </tr>
+          <tr>
+            <th>level teaspoon ground cinnamon</th>
+            <th>1</th>
+          </tr>
+          <tr>
+            <th>teaspoon bicarbonate of soda</th>
+            <th>½</th>
+          </tr>
+          <tr>
+            <th>sultanas</th>
+            <th>50 g</th>
+          </tr>
+        </table>
+      </div>
+      <div class="recipe">
+        <!-- Image for the Spaghetti recipe -->
+        <img
+          src="pictures/cookies.jpeg"
+          alt="Feta, cherry and white chocolate cookies"
+        />
+        <a href="fetaCookies.html">Feta, cherry and white chocolate cookies</a>
+        <button class="save-btn" data-recipe="fetaCookies.html">
+          Save for Later
+        </button>
+        <!-- Subheading for the Spaghetti recipe -->
+        <table>
+          <tr>
+            <th>Ingredients</th>
+            <th>Measurements</th>
+          </tr>
+          <tr>
+            <th>dried apple</th>
+            <th>100 g</th>
+          </tr>
+          <tr>
+            <th>self-raising flour</th>
+            <th>200 g</th>
+          </tr>
+          <tr>
+            <th>unsalted butter , (cold)</th>
+            <th>100 g</th>
+          </tr>
+          <tr>
+            <th>caster sugar</th>
+            <th>100 g</th>
+          </tr>
+          <tr>
+            <th>large egg</th>
+            <th>1</th>
+          </tr>
+        </table>
+      </div>
+      <div class="recipe">
+        <!-- Image for the Chocolate Cake recipe -->
+        <img src="pictures/choc chip.jpeg" alt="Chocolate chip cookie" />
+        <a href="chocolateCookies.html">chocolateCookies</a>
+        <button class="save-btn" data-recipe="chocolateCookies.html">
+          Save for Later
+        </button>
+        <!-- Subheading for the Chocolate Cake recipe -->
+        <table>
+          <tr>
+            <th>Ingredients</th>
+            <th>Measurements</th>
+          </tr>
+          <tr>
+            <th>All Purpose Flour</th>
+            <th>1 & 3/4 Cups</th>
+          </tr>
+          <tr>
+            <th>Granulated Sugar</th>
+            <th>2 Cups</th>
+          </tr>
+          <tr>
+            <th>Cocoa Powder</th>
+            <th>3/4 Cup</th>
+          </tr>
+          <tr>
+            <th>Baking Powder</th>
+            <th>1 & 1/2 Teaspoons</th>
+          </tr>
+          <tr>
+            <th>Salt</th>
+            <th>1 Teaspoon</th>
+          </tr>
+          <tr>
+            <th>Milk</th>
+            <th>1 Cup</th>
+          </tr>
+          <tr>
+            <th>Vegetable Oil</th>
+            <th>1/2 Cup</th>
+          </tr>
+          <tr>
+            <th>Eggs</th>
+            <th>2</th>
+          </tr>
+        </table>
+      </div>
+      <div class="recipe">
+        <!-- Image for the Apple Pie recipe -->
+        <img src="pictures/apple cookies.jpeg" alt="Apple cookies" />
+        <a href="appleCookies.html">Apple Pie Cookie Recipe</a>
+        <button class="save-btn" data-recipe="appleCookies.html">
+          Save for Later
+        </button>
+        <!-- Subheading for the Apple Pie recipe -->
+        <table>
+          <tr>
+            <th>Ingredients</th>
+            <th>Measurements</th>
+          </tr>
+          <tr>
+            <th>Apples</th>
+            <th>6 Cups, Peeled and Sliced</th>
+          </tr>
+          <tr>
+            <th>Sugar</th>
+            <th>3/4 Cup</th>
+          </tr>
+          <tr>
+            <th>Cinnamon</th>
+            <th>1 Teaspoon</th>
+          </tr>
+          <tr>
+            <th>Nutmeg</th>
+            <th>1/4 Teaspoon</th>
+          </tr>
+          <tr>
+            <th>Lemon Juice</th>
+            <th>1 Tablespoon</th>
+          </tr>
+          <tr>
+            <th>Pie Crust</th>
+            <th>2 (Top and Bottom)</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Section to display saved recipes -->
+    <h2>Saved Recipes</h2>
+    <ul id="saved-recipes"></ul>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

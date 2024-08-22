@@ -1,0 +1,169 @@
+/* Style the navigation bar */
+.navbar {
+  border-bottom: 2px solid #000; /* Add a bottom border to separate the navbar */
+  padding-bottom: 10px; /* Add some padding at the bottom for spacing */
+  margin-bottom: 20px; /* Add some margin at the bottom for spacing */
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Use flexbox to make the list horizontal */
+}
+
+/* Style the list items */
+.navbar li {
+  margin-right: 20px; /* Add some space between the items */
+}
+
+/* Style the links */
+.navbar a {
+  text-decoration: none; /* Remove underline from links */
+  color: #000; /* Change link color to black */
+  font-weight: bold; /* Make the text bold */
+  padding: 5px; /* Add padding for better spacing */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+  color: #fff; /* Change text color to white on hover */
+  background-color: #007bff; /* Add background color on hover */
+  border-radius: 5px; /* Optionally, add rounded corners */
+}
+
+/* Center the h2 element and change its font and underline it */
+h2 {
+  text-align: center; /* Center the text */
+  font-family: Arial, sans-serif; /* Change the font */
+  text-decoration: underline; /* Underline the text */
+}
+
+/* Style the container for the contact us section */
+.contactus-container {
+  margin: 20px auto; /* Center the container and add vertical margin */
+  padding: 20px; /* Add padding for spacing */
+  max-width: 800px; /* Set a maximum width */
+  background-color: #f9f9f9; /* Light background color */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.contactus-content {
+  font-family: Arial, sans-serif; /* Change the font */
+  color: #333; /* Dark text color */
+  line-height: 1.6; /* Increase line height for readability */
+}
+
+/* Style the container for the recipes */
+.recipe-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: space-around; /* Space out the items */
+  margin-top: 20px; /* Add some margin to the top */
+  background-color: rgb(128, 128, 90);
+}
+
+.recipe {
+  text-align: center; /* Center the text inside each recipe container */
+  width: 45%; /* Make each recipe container take up 45% of the width */
+}
+
+.recipe img {
+  width: 100%; /* Ensure the images fill the container width */
+  height: auto; /* Maintain the aspect ratio */
+  max-height: 300px; /* Set a fixed maximum height */
+  object-fit: scale-down; /* Crop the image to fit the container if needed */
+}
+
+.aboutus-content {
+  margin: 20px auto; /* Center the container and add vertical margin */
+  padding: 20px; /* Add padding for spacing */
+  max-width: 800px; /* Set a maximum width */
+  background-color: #f9f9f9; /* Light background color */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+}
+body {
+  background-color: beige;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style the chef images container */
+.chef-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: space-between; /* Space items apart */
+  padding: 20px; /* Add padding for spacing */
+}
+
+#chef {
+  height: 200px;
+  width: 250px;
+}
+
+#chef2 {
+  height: 200px;
+  width: 250px;
+  margin-left: auto; /* Move the second chef image to the right */
+}
+
+.testimonial {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ff7e5f;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-style: italic;
+  font-family: "Arial", sans-serif;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 5px;
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.recipe-img {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
