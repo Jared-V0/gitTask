@@ -44,7 +44,7 @@ The website dynamically loads and saves user interactions such as saved recipes 
 
 ### 1. Homepage
 - Using the navbar you are able to navigate through the various pages in the website.
-![Homepage](Task 15/pictures/navbar.png)
+![Homepage](Task%2015/pictures/navbar.png)
 
 ### 2. Save For Later
 - Using the save for later button will save any recipe to the save for later page.
