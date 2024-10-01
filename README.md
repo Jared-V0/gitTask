@@ -52,7 +52,7 @@ The website dynamically loads and saves user interactions such as saved recipes 
 
 ### 3. Newsletter
 - You are able to subcribe to the newsletter of the website by adding your name and surname.
-  ![Newsletter](Task%2015/pictures/newsletter.png)
+  ![Newsletter](Task%2015/pictures/saveforlater.png)
 
 
 Credits
