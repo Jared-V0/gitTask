@@ -32,12 +32,28 @@ Usage
 
 After installing the project, you can:
 1.) Browse through the recipes listed on the website.
+
 2.) Click on any recipe to view more details.
 3.) Save your favorite recipes for easy access later.
 4.) Like recipes to express your preference.
 5.) View testimonials or contribute your own comments.
 
 The website dynamically loads and saves user interactions such as saved recipes and likes, providing a personalized experience each time you visit.
+
+## Features
+
+### 1. Homepage
+- Using the navbar you are able to navigate through the various pages in the website.
+![Homepage](images/navbar.png)
+
+### 2. Save For Later
+- Using the save for later button will save any recipe to the save for later page.
+  ![SaveForLater](images/saveforlater.png)
+
+### 3. Newsletter
+- You are able to subcribe to the newsletter of the website by adding your name and surname.
+  ![Newsletter](images/newsletter)
+
 
 Credits
 
