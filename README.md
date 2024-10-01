@@ -48,11 +48,11 @@ The website dynamically loads and saves user interactions such as saved recipes 
 
 ### 2. Save For Later
 - Using the save for later button will save any recipe to the save for later page.
-  ![SaveForLater](Task%2015/pictures/savelater.png)
+  ![SaveForLater](Task%2015/pictures/saveforlater.png)
 
 ### 3. Newsletter
 - You are able to subcribe to the newsletter of the website by adding your name and surname.
-  ![Newsletter](Task%2015/pictures/saveforlater.png)
+  ![Newsletter](Task%2015/pictures/newsletter.png)
 
 
 Credits
